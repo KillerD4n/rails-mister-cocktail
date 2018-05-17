@@ -13,3 +13,82 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+body {
+ font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+ background-color: #E1E1E1;
+}
+.navbar {
+  h1 {
+ font-size: 16px;
+ position: fixed;
+ top: 0;
+  }
+}
+.button {
+ width: 100px;
+ a {
+   text-decoration: none;
+   color: white;
+ }
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+
+.container {
+  text-align: center;
+
+}
+
+h1 {
+  color: grey;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+  text-size: 24px;
+  color: grey;
+  :hover{
+    opacity: 0.3;
+    text-decoration: underline;
+  }
+}
+.card {
+  display: flex;
+  color: grey;
+  font-size: 20px;
+  padding: 20px;
+}
+.form {
+  padding-top: 50px;
+  color: grey;
+}
+.form-group {
+  color:#492D26;
+}
+.cards{
+  display: flex;
+  height: 2000px;
+  width: 1500px;
+  justify-content: space-between;
+}
+.cocktail_card {
+  flex: 1 0 ;
+  text-align: center;
+  vertical-align: center;
+  color: grey;
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 450px;
+  background-image: asset-url('cocktail_card.jpg');
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+

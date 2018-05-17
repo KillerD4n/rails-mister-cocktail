@@ -11,6 +11,15 @@
   </head>
 
   <body>
+    <div class="navbar-wagon">
+     <!-- Logo -->
+     <div class="navbar-wagon-right"><h2>Mister Cocktail</h1></div>
+      <div class="navbar-wagon-center"><h2><%= link_to 'Cocktail List', cocktails_path %></h2></div>
+     <!-- Right Navigation -->
+     <div class="navbar-wagon-right hidden-xs hidden-sm">
+     <div class = "btn btn-warning button col-md-6"><%= link_to('Add new', new_cocktail_path) %></div>
+     </div>
+     </div>
     <%= yield %>
   </body>
 </html>

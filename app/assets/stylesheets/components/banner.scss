@@ -3,3 +3,23 @@
   height: 800px;
   background-position: center;
 }
+
+.cocktail_banner {
+  background-image: asset-url('single_cocktail.png');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.create_banner {
+  background-image: asset-url('mix_cocktail.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.ingredient_banner {
+  background-image: asset-url('ingredient.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}

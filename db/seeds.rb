@@ -15,3 +15,8 @@ Ingredient.create(name: "vodka")
 Ingredient.create(name: "brown sugar")
 Ingredient.create(name: "tonic water")
 Ingredient.create(name: "gin")
+
+Cocktail.create(name: "Moscow Mule")
+Cocktail.create(name: "Margarita")
+Cocktail.create(name: "Long Island Ice Tea")
+Cocktail.create(name: "White Russian")
