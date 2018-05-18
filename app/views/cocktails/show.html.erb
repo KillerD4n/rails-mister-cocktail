@@ -2,20 +2,19 @@
 <div class="container1">
   <h1><%= @cocktail.name %></h1>
   <h3>
-    <div class="cards"><ul>
-      <div class="row">
+    <ul>
     <% @cocktail.doses.each do |dose| %>
     <li>
-      <div class = "col.md-4"><div class="card">
+      <div class="card">
       <%= dose.description %>
 
       <%= dose.ingredient.name %>
       <br>
       <%= link_to 'Remove Ingredient', dose_path(dose), method: :delete %>
-      </div></div>
+      </div>
       </li>
       <% end %>
-      <ul></div></div>
+      <ul>
   </h3>
 
   <div class="links">
