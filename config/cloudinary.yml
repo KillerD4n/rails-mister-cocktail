@@ -1,0 +1,6 @@
+production:
+  cloud_name: "diryulf8i"
+  api_key: "728783651588477"
+  api_secret: "bfaaabX22NVY9FoLYpFp12_3ilg"
+  secure: true
+  cdn_subdomain: true
